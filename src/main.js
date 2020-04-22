@@ -8,7 +8,7 @@ import 'bootstrap';
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
-const commerce = new Commerce(process.env.VUE_APP_CHEC_PUBLIC_KEY, true);
+const commerce = new Commerce("pk_1804536f3a6e73f039fb5739829ff9d02037fbdbeb51a", true);
 
 Vue.mixin({
   beforeCreate() {
