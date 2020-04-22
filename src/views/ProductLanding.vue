@@ -83,7 +83,7 @@ export default {
     getCategories() {
       axios.get(`https://api.chec.io/v1/categories`, {
         headers: {
-          'X-Authorization': "https://api.chec.io",
+          'X-Authorization': "pk_1804536f3a6e73f039fb5739829ff9d02037fbdbeb51a",
         },
       }).then((result) => {
         this.categories = result.data;
